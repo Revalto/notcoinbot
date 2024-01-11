@@ -7,9 +7,10 @@ TON Wallet: UQBMOIVDlQG5r_VdzbZhVF9Xi4k388Ap9ti-XAfWFPo32bgz
 ## Пример использования
 1. `git clone https://github.com/Revalto/notcoinbot`
 2. `cd ./notcoinbot`
-3. Редактируем `index.js` и изменяем ссылку в строке #2
-4. Сохраняем и закрываем
-5. Запускаем `npm run start`
+3. `npm install`
+4. Редактируем `index.js` и изменяем ссылку в строке #2
+5. Сохраняем и закрываем
+6. Запускаем `npm run start`
 
 ## Где взять URL ?
 1. Авторизуйтесь с компьютера в [Telegram Web](https://web.telegram.org).
