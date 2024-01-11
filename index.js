@@ -10,6 +10,8 @@ const notCoin = new NotCoin(`СЮДА ССЫЛКУ`);
             let profile = notCoin.getProfile();
 
             if(profile.availableCoins < 100) {
+                await notCoin.updateProfile();
+
                 return;
             }
 
